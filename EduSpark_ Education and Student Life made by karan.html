@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="EduSpark: study smarter, live better. Free tools, tips and guides for students.">
+<title>EduSpark: Education and Student Life</title>
+<style>
+:root{--bg:#fbfaff;--sf:#fff;--tx:#161a2b;--mu:#5d6580;--ac:#5b4bff;--ac2:#ff7a59;--soft:#efecff;--bd:#e5e2f5;--sh:0 8px 30px rgba(60,40,160,.09);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0f1c;--sf:#171a2e;--tx:#eef0fa;--mu:#a2a9c4;--ac:#8f84ff;--ac2:#ff9274;--soft:#222645;--bd:#2b3054;--sh:0 8px 30px rgba(0,0,0,.4);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0f1c;--sf:#171a2e;--tx:#eef0fa;--mu:#a2a9c4;--ac:#8f84ff;--ac2:#ff9274;--soft:#222645;--bd:#2b3054;--sh:0 8px 30px rgba(0,0,0,.4);color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;line-height:1.6}
+.c{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--bd)}
+.nv{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;font-size:20px;color:var(--ac);text-decoration:none}
+.links{display:flex;gap:20px;align-items:center}.links a{color:var(--mu);text-decoration:none;font-size:15px}.links a:hover{color:var(--ac)}
+.ib{border:1px solid var(--bd);background:var(--sf);color:var(--tx);border-radius:10px;padding:6px 10px;cursor:pointer;font-size:16px}
+#mb{display:none}
+.hero{padding:70px 0 50px;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.pill{display:inline-block;background:var(--soft);color:var(--ac);font-weight:600;font-size:13px;padding:5px 12px;border-radius:20px}
+h1{font-size:clamp(32px,5vw,52px);line-height:1.1;margin:14px 0}
+h1 span{background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--mu);font-size:18px;max-width:520px}
+.btn{display:inline-block;background:var(--ac);color:#fff;border:0;padding:12px 22px;border-radius:12px;font-weight:700;font-size:15px;cursor:pointer;text-decoration:none}
+.btn.o{background:transparent;color:var(--ac);border:2px solid var(--ac)}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.art{background:linear-gradient(135deg,var(--ac),var(--ac2));border-radius:28px;padding:26px;color:#fff;box-shadow:var(--sh)}
+.art h3{margin:0 0 12px}.art div{background:rgba(255,255,255,.18);border-radius:14px;padding:11px 14px;margin-bottom:10px;font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:10px 0 60px}
+.stat{background:var(--sf);border:1px solid var(--bd);border-radius:18px;padding:18px;text-align:center;box-shadow:var(--sh)}
+.stat b{font-size:30px;color:var(--ac);display:block}.stat span{color:var(--mu);font-size:14px}
+section{padding:46px 0}h2{font-size:clamp(26px,3.5vw,36px);margin:0 0 6px}.sub{color:var(--mu);margin:0 0 26px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh);transition:transform .2s}
+.card:hover{transform:translateY(-4px)}.card .e{font-size:30px}.card h3{margin:8px 0 4px}.card p{margin:0;color:var(--mu);font-size:15px}
+.tool{background:var(--sf);border:1px solid var(--bd);border-radius:22px;padding:24px;box-shadow:var(--sh);display:grid;grid-template-columns:1fr 1.2fr;gap:24px}
+label{display:block;font-size:14px;font-weight:600;margin:10px 0 4px}
+input,textarea,select{width:100%;padding:11px 12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit}
+#out{background:var(--soft);border-radius:14px;padding:16px;min-height:200px;font-size:15px}
+#out table{width:100%;border-collapse:collapse}#out td,#out th{padding:6px 4px;text-align:left;border-bottom:1px solid var(--bd)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.tab{border:1px solid var(--bd);background:var(--sf);color:var(--tx);padding:8px 16px;border-radius:20px;cursor:pointer;font:inherit;font-size:14px}
+.tab.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+.tp{background:var(--sf);border:1px solid var(--bd);border-radius:18px;padding:8px 22px;box-shadow:var(--sh)}
+.tp li{padding:9px 0;border-bottom:1px solid var(--bd);list-style:none}.tp li:last-child{border:0}.tp ul{padding:0;margin:0}
+.tl{border-left:3px solid var(--ac);padding-left:20px;margin-left:8px}
+.tl div{position:relative;margin-bottom:20px}.tl div::before{content:"";position:absolute;left:-29px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--ac2)}
+.tl b{display:block}.tl span{color:var(--mu);font-size:15px}
+details{background:var(--sf);border:1px solid var(--bd);border-radius:14px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}details p{margin:8px 0 0;color:var(--mu)}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.ok{color:#16a34a;font-weight:600;margin-top:10px}
+footer{border-top:1px solid var(--bd);padding:26px 0;color:var(--mu);text-align:center;font-size:14px}
+@media(max-width:800px){.hero,.tool,.ct{grid-template-columns:1fr}.g3{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}
+#mb{display:block}.links{display:none;position:absolute;top:60px;left:0;right:0;background:var(--bg);flex-direction:column;padding:16px;border-bottom:1px solid var(--bd)}.links.open{display:flex}.hero{padding-top:40px}}
+</style>
+</head>
+<body>
+<header><div class="c nv"><a class="logo" href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#top">🎓 EduSpark</a>
+<nav class="links" id="lk"><a href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#features">Features</a><a href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#planner">Planner</a><a href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#tips">Tips</a><a href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#journey">Journey</a><a href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#faq">FAQ</a><a href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#contact">Contact</a><button class="ib" id="th" aria-label="Toggle theme">🌓</button></nav>
+<button class="ib" id="mb" aria-label="Menu">☰</button></div></header>
+
+<main id="top"><div class="c">
+<div class="hero"><div><span class="pill">✨ Built for students, by students</span>
+<h1>Study smarter. <span>Live better.</span></h1>
+<p class="lead">One place for study planning, time management, wellbeing and campus life, so you can focus on learning without the overwhelm.</p>
+<div class="cta"><a class="btn" href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#planner">Try the free planner</a><a class="btn o" href="file:///C:/Users/Karan/Downloads/eduspark-website%20(1).html#tips">Read student tips</a></div></div>
+<div class="art"><h3>📌 Today’s plan</h3><div>⏰ 9:00 Maths revision (45 min)</div><div>📚 11:00 Library: chapter notes</div><div>🥗 1:00 Lunch and a short walk</div><div>💻 4:00 Project work (Pomodoro)</div><div>😴 10:30 Sleep, 8 hours</div></div></div>
+<div class="stats"><div class="stat"><b data-n="50">50</b><span>Study hacks (+)</span></div><div class="stat"><b data-n="25">25</b><span>Minutes per focus sprint</span></div><div class="stat"><b data-n="8">8</b><span>Hours of sleep goal</span></div><div class="stat"><b data-n="100">100</b><span>% free to use</span></div></div>
+
+<section id="features"><h2>Everything a student needs</h2><p class="sub">Simple tools that fit around lectures, exams and life.</p>
+<div class="g3"><div class="card"><div class="e">📅</div><h3>Smart Planner</h3><p>Turn subjects and exam dates into a day-by-day study schedule.</p></div>
+<div class="card"><div class="e">⏱️</div><h3>Focus Sessions</h3><p>Pomodoro-style sprints that build concentration and beat procrastination.</p></div>
+<div class="card"><div class="e">📊</div><h3>Grade Tracking</h3><p>Know your CGPA and what you need in the next exam to hit your goal.</p></div>
+<div class="card"><div class="e">🧠</div><h3>Wellbeing First</h3><p>Stress, sleep and routine advice because good grades need a healthy mind.</p></div>
+<div class="card"><div class="e">💼</div><h3>Career Guidance</h3><p>Resume, internship and skill-building tips from first year onward.</p></div>
+<div class="card"><div class="e">🤝</div><h3>Campus Community</h3><p>Clubs, study groups and mentors to make college life richer.</p></div></div></section>
+
+<section id="planner"><h2>Free exam study planner</h2><p class="sub">Enter your subjects and get a plan instantly.</p>
+<div class="tool"><div>
+<label for="sb">Subjects (comma separated)</label><input id="sb" value="Maths, Physics, English">
+<label for="dy">Days left for exam</label><input id="dy" type="number" min="2" max="60" value="10">
+<label for="hr">Study hours per day</label><input id="hr" type="number" min="1" max="14" step="0.5" value="4">
+<div style="margin-top:16px"><button class="btn" id="gp">Generate plan</button></div></div>
+<div id="out">Your plan will appear here.</div></div></section>
+
+<section id="tips"><h2>Student tips that work</h2><p class="sub">Pick a topic.</p>
+<div class="tabs" id="tb"><button class="tab on">📚 Study</button><button class="tab">⏰ Time</button><button class="tab">🧘 Wellbeing</button><button class="tab">💼 Career</button></div><div class="tp"><ul id="tl"><li>✅ Use active recall: close the book and write what you remember.</li><li>✅ Space your revision: review after 1 day, 3 days and 7 days.</li><li>✅ Teach a concept to a friend; if you can explain it, you know it.</li><li>✅ Solve past papers under timed conditions.</li></ul></div></section>
+
+<section id="journey"><h2>Your student journey</h2><p class="sub">What to focus on in each year.</p>
+<div class="tl"><div><b>Year 1: Build habits</b><span>Learn how to study, join one club, and keep attendance above 75%.</span></div>
+<div><b>Year 2: Build skills</b><span>Pick a skill (coding, design, writing), start small projects and join a hackathon.</span></div>
+<div><b>Year 3: Build experience</b><span>Internships, research papers, competitions and a strong portfolio.</span></div>
+<div><b>Year 4: Build your future</b><span>Placements, higher studies, networking and a polished resume.</span></div></div></section>
+
+<section id="faq"><h2>Frequently asked questions</h2><p class="sub">Quick answers.</p>
+<details><summary>Is EduSpark free?</summary><p>Yes. All tools and tips are completely free for students.</p></details>
+<details><summary>How many hours should I study daily?</summary><p>Quality beats quantity. Most students do well with 3 to 5 focused hours plus regular breaks.</p></details>
+<details><summary>How do I stop procrastinating?</summary><p>Start with just 5 minutes, use 25-minute focus sprints, and remove your phone from the desk.</p></details>
+<details><summary>Does my data get saved?</summary><p>This demo runs in your browser and sends nothing to a server.</p></details></section>
+
+<section id="contact"><div class="ct"><div><h2>Join the community</h2><p class="sub">Get weekly study tips and share your ideas. Tell us what you want next.</p><p>📍 Made for every student, everywhere.</p></div>
+<div class="card"><label for="nm">Name</label><input id="nm"><label for="em">Email</label><input id="em" type="email"><label for="ms">Message</label><textarea id="ms" rows="3"></textarea>
+<div style="margin-top:14px"><button class="btn" id="sd">Send</button></div><div class="ok" id="ok" role="status"></div></div></div></section>
+</div></main>
+<footer><div class="c">© 2026 EduSpark · Learn. Grow. Thrive.<br>Made by <b>Karan Dighe</b></div></footer>
+
+<script>
+var $=function(i){return document.getElementById(i)};
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+$("mb").onclick=function(){$("lk").classList.toggle("open")};
+document.querySelectorAll(".links a").forEach(function(a){a.onclick=function(){$("lk").classList.remove("open")}});
+$("th").onclick=function(){var r=document.documentElement,d=r.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");r.setAttribute("data-theme",d==="dark"?"light":"dark")};
+document.querySelectorAll("[data-n]").forEach(function(e){var t=+e.dataset.n,n=0,s=Math.max(1,Math.ceil(t/40)),iv=setInterval(function(){n=Math.min(t,n+s);e.textContent=n;if(n>=t)clearInterval(iv)},30)});
+$("gp").onclick=function(){
+var subs=$("sb").value.split(",").map(function(s){return s.trim()}).filter(Boolean),d=Math.floor(+$("dy").value),h=+$("hr").value;
+if(!subs.length||!(d>=2)||!(h>0)){$("out").textContent="Please enter subjects, at least 2 days, and daily hours.";return}
+var rev=Math.max(1,Math.round(d*0.2)),study=d-rev,per=(h/subs.length).toFixed(1),rows="";
+for(var i=1;i<=d;i++){var r=i>study;rows+="<tr><td>Day "+i+"</td><td>"+(r?"Full revision and mock tests ("+h+" h)":esc(subs[(i-1)%subs.length])+" focus + quick recap ("+h+" h)")+"</td></tr>"}
+$("out").innerHTML="<b>"+study+" learning days + "+rev+" revision day(s)</b><p style='margin:4px 0 10px'>About "+per+" h per subject if you split each day. Take a 5-minute break every 25 minutes.</p><table><tr><th>Day</th><th>Plan</th></tr>"+rows+"</table>"};
+var TIPS={"📚 Study":["Use active recall: close the book and write what you remember.","Space your revision: review after 1 day, 3 days and 7 days.","Teach a concept to a friend; if you can explain it, you know it.","Solve past papers under timed conditions."],
+"⏰ Time":["Plan tomorrow tonight and pick your top 3 tasks.","Use 25-minute focus sprints with 5-minute breaks.","Keep your phone in another room while studying.","Batch small tasks like emails into one slot."],
+"🧘 Wellbeing":["Sleep 7 to 8 hours; memory is stored while you sleep.","Walk or stretch for 10 minutes between study blocks.","Talk to friends or a counsellor when stress feels heavy.","Drink water and eat real meals, not just snacks."],
+"💼 Career":["Build one small project each semester and put it online.","Keep your resume to one page with measurable results.","Apply for internships early and network on LinkedIn.","Join hackathons and competitions to learn fast."]};
+var tb=$("tb");Object.keys(TIPS).forEach(function(k,i){var b=document.createElement("button");b.className="tab"+(i?"":" on");b.textContent=k;b.onclick=function(){tb.querySelectorAll(".tab").forEach(function(x){x.classList.remove("on")});b.classList.add("on");show(k)};tb.appendChild(b)});
+function show(k){$("tl").innerHTML=TIPS[k].map(function(t){return"<li>✅ "+esc(t)+"</li>"}).join("")}show("📚 Study");
+$("sd").onclick=function(){var n=$("nm").value.trim(),e=$("em").value.trim(),o=$("ok");
+if(!n||!/^\S+@\S+\.\S+$/.test(e)){o.style.color="#dc2626";o.textContent="Please enter your name and a valid email.";return}
+o.style.color="";o.textContent="Thanks, "+n+"! We will be in touch soon. (Demo: nothing was sent.)";$("nm").value=$("em").value=$("ms").value=""};
+</script>
+
+
+</body></html>
